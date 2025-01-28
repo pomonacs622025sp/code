@@ -21,9 +21,11 @@ public class Exercise1 {
         Exercise1 obj1 = new Exercise1(y);
         System.out.println(obj1.x);
         y = 7;
-        obj1.message = "bark";
+        // obj1.message = "bark";
+        obj1.setMessage("bark");
         System.out.println(add(4));
         obj1.setMessage("meow");
         System.out.println(obj1.yell());
+        
     }
 }

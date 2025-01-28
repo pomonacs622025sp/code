@@ -89,6 +89,11 @@ public class PomonaStudent {
         PomonaStudent student2 = new PomonaStudent("Ravi Kumar", "rkjc2023@mypomona.edu", 1234);
         System.out.println(student2);
 
+        graduateAllStudents();
+        student1.graduateAllStudents();
+
+
+
     }
 
 }
