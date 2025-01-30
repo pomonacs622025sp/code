@@ -11,14 +11,12 @@ public class FileIOExample {
         System.out.println("Enter the number of lines to read: ");
         String linesInput = inputScanner.nextLine();
         int numberOfLines = -1;
-        try {
+    
             numberOfLines = Integer.parseInt(linesInput);
-        } catch (NumberFormatException e) {
-            System.err.println("Invalid input for number of lines");
-        }
-        finally{
+    
+  
             inputScanner.close();
-        }
+  
         Scanner fileScanner = null;
         PrintWriter writer = null;
         try {
