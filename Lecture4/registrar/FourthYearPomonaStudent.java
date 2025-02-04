@@ -26,6 +26,5 @@ class FourthYearPomonaStudent extends PomonaStudent{
     public String toString(){
         return super.toString() + "Fourth-Year Student Writing Thesis on: " + thesisTitle;
     }
-
-    
 }
+

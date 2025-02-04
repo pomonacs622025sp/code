@@ -21,7 +21,7 @@ class FirstYearPomonaStudent extends PomonaStudent{
     }
 
     public String toString(){
-        return "First-Year Student Attending ID1: " + id1;
+        return super.toString() + "First-Year Student Attending ID1: " + id1;
     }
 
     public static void main(String args[]){
