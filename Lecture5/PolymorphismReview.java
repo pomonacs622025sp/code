@@ -7,7 +7,7 @@ class Parent {
 }
 
 class Child extends Parent {
-    int num = 20; // Hides parent's 'num'
+    int num = 20;
 
     @Override
     public void show() {
