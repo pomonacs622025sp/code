@@ -31,7 +31,7 @@ public class WithGenerics {
         weightBox.addItem(12.5);
         weightBox.addItem(25.0);
         weightBox.removeItem(0);
-
+ 
         System.out.println(fruitBox.getSize());
         System.out.println(weightBox.getItem(1));
     }
