@@ -72,9 +72,9 @@ public class QuickSort {
         quickSort(array1);
 		System.out.println(Arrays.toString(array1));
 
-        Integer[] array2 = { 5, 3, 6, 2, 4, 0, 4 };
-		System.out.println(Arrays.toString(array2));
-        quickSort(array2);
-		System.out.println(Arrays.toString(array2));
+        // Integer[] array2 = { 5, 3, 6, 2, 4, 0, 4 };
+		// System.out.println(Arrays.toString(array2));
+        // quickSort(array2);
+		// System.out.println(Arrays.toString(array2));
     }
 }
