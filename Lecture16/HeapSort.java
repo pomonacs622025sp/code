@@ -14,6 +14,7 @@ public class HeapSort {
             sink(a, k, n);
         }
         System.out.println("Intermediate established heap: " + Arrays.toString(a));
+        
         // Sorting in O(nlogn)
         while (n > 1) {
             swap(a, 1, n--);
