@@ -5,7 +5,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         private Key key; // Sorted by key
         private Value val; // Associated value
         private Node left, right; // Roots of left and right subtrees
-        private int size; // Number of nodes in subtree rooted at this
+        private int size; // Number of nodes in subtree rooted at this node
 
         public Node(Key key, Value val, int size) {
             this.key = key;
